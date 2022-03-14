@@ -1,0 +1,109 @@
+.sidbare{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 15px;
+    margin: 8% 0;
+    text-align: center;
+    flex: 0.2;
+    height: fit-content;
+}
+.sidbare__top{
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+.sidbare__top .img{
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.sidebar__avatar{
+    margin-top: -35px;
+    width: 75px !important;
+    height: 75px !important;
+    cursor: pointer;
+}
+.sidebar__avatar:hover{
+    transition-delay: 0.1s;
+    outline: 3px solid rgb(16, 236, 101);
+}
+.sidbare__top h2{
+    cursor: pointer;
+    margin: 15px 0;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.sidbare__top h2:hover{
+    color: rgb(18, 146, 206);
+}
+.sidbare__top h3{
+    font-size: 17px;
+    color: rgb(18, 146, 206);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.sidebare_event{
+   width: 100%;
+   padding-top: 10px ;
+   max-height: fit-content;
+   text-transform: capitalize;
+   border-top: 1px solid lightgray;
+}
+ .events{
+    padding: 15px 0;
+    cursor: pointer;
+}
+.sidebare_event h4{
+    color: rgb(18, 146, 206);
+    font-weight: 600;
+}
+.events:hover{
+    color: rgb(18, 146, 206);
+    font-weight: 600;
+    background-color: lightgray;
+}
+.sidbare__bottom{
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+.sidbare__bottom h4{
+    font-size: 17px;
+    color: rgb(18, 146, 206);
+    font-weight: 600;
+    padding: 15px 0;
+}
+.bottom_recent p {
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    text-transform: capitalize;
+ }
+ .bottom_recent {
+    width: 100%;
+    cursor: pointer;
+    text-transform: capitalize;
+ }
+.bottom_recent p:hover{
+    color: rgb(18, 146, 206);
+    font-weight: 600;
+    background-color: lightgray;
+}
+.bottom_recent .side_icone{
+    color: rgb(18, 146, 206);
+    margin: 10px;
+}
+.bottom_recent .side_icone:hover{
+    color: rgb(24, 159, 221);
+}

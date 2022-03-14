@@ -1,0 +1,8 @@
+body{
+    height: 100vh;
+    background-color:#f3f2ef ;
+}
+.heading_bar{
+    height: auto;
+    display: flex;
+}
