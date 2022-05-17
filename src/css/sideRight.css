@@ -1,0 +1,124 @@
+.sideRight{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 15px;
+    margin: 7.5% 0;
+    flex: 0.3;
+    height: fit-content;
+}
+.sidright__top{
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+   
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+.sideRight_h1{
+    font-size: 18px;
+    color: rgb(114, 110, 110);
+    font-weight: 600;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.sideRight_h1:hover{
+    color: rgb(18, 146, 206);
+}
+.sidright_flw{
+    display: flex;
+    flex-flow: row wrap;
+}
+.sidright_flw_top{
+    padding:0 8px;
+    
+}
+.sidright_flw_bottom{
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    margin:0 10px;
+   
+}
+.sidright_h2{
+    font-size: 18px;
+    color: rgb(44, 43, 43);
+    font-weight: 600;
+    cursor: pointer;
+}
+.sidright_h2:hover{
+    color: rgb(18, 146, 206);
+}
+.sidright_h3{
+    font-size: 16px;
+    color: rgb(114, 110, 110);
+    font-weight: 600;
+    padding: 2px;
+    cursor: pointer;
+}
+.sidright_btn{
+    display:flex;
+    width: fit-content;
+    margin:8px 0;
+    padding:10px ;
+    border: 3px solid lightgray;
+    outline: none;
+    color: rgb(104, 103, 103);
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.sidright_btn:hover{
+    background-color: rgb(231, 230, 230);;
+ 
+}
+
+/*--------chat    -----*/
+.chat{
+    
+   
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+}
+.sidright_chat{
+    width: 33%;
+    height: auto;
+    display: flex;
+    background-color: #f3f2ef ;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 0;
+    justify-content: space-between;
+}
+.sidright_chat_top{
+    display: flex;
+    align-items: center;
+    color: #f3f2ef ;
+}
+.sidright_chat_bottom{
+    display: flex;
+    align-items: center;
+    
+}
+.react_h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(104, 103, 103);
+    margin: 0 5px;
+    cursor: pointer;
+}
+.react_h2:hover{
+    color: rgb(18, 146, 206);
+}
+.chat_avtr{
+    margin: 10px;
+    width: 40px !important;
+    height: 40px !important;
+  
+    border-right: 3px solid green;
+    border-bottom: 3px solid green;
+}

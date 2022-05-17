@@ -1,13 +1,15 @@
-.home{
+.homePage{
         display: flex;
         flex-flow: column wrap;
-        padding: 20px;
         margin: 9% 0;
-        background-color: #fff;
-        border-radius: 15px;
-        text-align: center;
-        flex: 0.5;
-        height: fit-content;
+        flex: 0.5; 
+}
+.home{
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    height: fit-content;
+    padding: 10px;
 }
 .new_post{
     width: 100%;
@@ -20,28 +22,20 @@
 }
 .new_post_btn{
     text-align: left;
-    margin: 0 15px;
-    background-color: white;
-    border: 1px lightgray solid;
-    outline: none;
     flex-grow: 2;
-    border-radius: 30px;
-    cursor: pointer;
 }
 .new_post_btn:hover{
-    background-color: rgba(0,0,0,0.2);
+    background-color: #f3f2ef ;
     transition: 0.3s;
 }
 .new_post_span{
     padding: 0 15px;
-    font-size: 18px;
-    color: rgb(114, 110, 110);
+    font-size: 18px ;
 }
 .avtr{
     margin: 10px;
     width: 50px !important;
     height: 50px !important;
-
 }
 
 /*---------new_post_bottom--------*/
@@ -49,15 +43,15 @@
     display: flex;
     flex-flow: row wrap;
     padding: 15px 0;
-    justify-content: center;
+    justify-content: space-around;
 }
 .new_post_bottom_btn{
     display:flex;
-    padding: 10px;
+    width: fit-content;
+    padding: 8px;
     background-color: white;
     border: none;
     outline: none;
-    flex-grow: 2;
     cursor: pointer;
     align-items: center;
 }
@@ -69,4 +63,79 @@
     padding: 0 15px;
     font-size: 18px;
     color: rgb(114, 110, 110);
+}
+/*----------Post ----------*/
+.post{
+    border-radius: 15px;
+    padding: 15px 0;
+    margin: 15px 0;
+    background-color: #fff;
+    height: fit-content;
+}
+.post_btn{
+    width: fit-content;
+    padding:0 15px;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: right;
+}
+.home_post{
+    display: flex;
+    flex-flow: row wrap;
+}
+.home_post_avatar{
+    padding:0 8px;
+}
+.home_post_person{
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    margin:0 10px;
+}
+.post_name_h2{
+    font-size: 18px;
+    color: rgb(44, 43, 43);
+    font-weight: 600;
+    cursor: pointer;
+}
+.post_name_h2:hover{
+    color: rgb(18, 146, 206);
+}
+.post_skill_h3{
+    font-size: 16px;
+    color: rgb(116, 114, 114);
+    font-weight: 600;
+    padding: 5px 0 ;
+    cursor: pointer;
+}
+.pub{
+  margin: -2px;
+}
+.home_post_new_top{
+    text-align: right;
+    font-size: 18px;
+    margin:0 30px ;
+    padding: 10px;
+}
+.home_post_react{
+    margin:0 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.react_h3{
+    margin:0 15px;
+}
+.bor{
+    margin: 15px 0;
+    border-top: 1px solid lightgray;
+}
+/*----------model----------*/
+.header{
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: space-around;
+    
 }
